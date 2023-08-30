@@ -359,7 +359,7 @@ package Lesson_1;
 // import java.io.IOException;
 // public class program {
 //  public static void main(String[] args) {
-//  try (FileWriter fw = new FileWriter("file.txt", false)) {
+//  try (FileWriter fw = new FileWriter("Lesson_1/file.txt", false)) {
 //  fw.write("line 1");
 //  fw.append('\n');
 //  fw.append('2');
@@ -374,7 +374,7 @@ package Lesson_1;
 // import java.io.*;
 // public class program {
 //  public static void main(String[] args) throws Exception {
-//  FileReader fr = new FileReader("file.txt");
+//  FileReader fr = new FileReader("Lesson_1/file.txt");
 //  int c;
 //  while ((c = fr.read()) != -1) {
 //  char ch = (char) c;
@@ -389,7 +389,7 @@ package Lesson_1;
 import java.io.*;
 public class program {
  public static void main(String[] args) throws Exception {
- BufferedReader br = new BufferedReader(new FileReader("file.txt"));
+ BufferedReader br = new BufferedReader(new FileReader("Lesson_1/file.txt"));
  String str;
  while ((str = br.readLine()) != null) {
  System.out.printf("== %s ==\n", str);
